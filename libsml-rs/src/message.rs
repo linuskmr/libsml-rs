@@ -1,8 +1,7 @@
 //! See <https://github.com/volkszaehler/libsml/blob/master/sml/include/sml/sml_message.h>
 
 use std::marker::PhantomData;
-
-use crate::{MessageBody, OctetString};
+use crate::{MessageBody, OctetString, crc16};
 
 /// See <https://github.com/volkszaehler/libsml/blob/master/sml/include/sml/sml_message.h>
 pub struct Message<'a>(pub(crate) *mut libsml_sys::sml_message, pub(crate) PhantomData<&'a ()>);
@@ -37,7 +36,8 @@ impl<'a> Message<'a> {
     }
 
 	pub fn crc(&self) -> &'a [u16; 3] {
-		unsafe { todo!() }
+		// unsafe { crc16::calculate(); }
+		todo!()
 	}
 
     pub fn set_crc(&mut self, crc: &'a mut [u16; 3]) {

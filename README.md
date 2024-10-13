@@ -1,28 +1,8 @@
 # libsml-rs
 
-High-level Rust bindings to [libsml](https://github.com/volkszaehler/libsml).
+Low-level and high-level Rust bindings to [libsml](https://github.com/volkszaehler/libsml). See [`libsml-sys`](./libsml-sys/) and [`libsml-rs`](./libsml/) respectively.
 
----
+> libSML is a library which implements the Smart Message Language (SML) protocol specified by VDE's Forum Netztechnik/Netzbetrieb (FNN). It can be utilized to communicate to FNN specified Smart Meters or Smart Meter components (EDL/MUC).  
+> — [github.com/volkszaehler/libsml](https://github.com/volkszaehler/libsml)
 
-## Installation
-
-According to [libsml](https://github.com/volkszaehler/libsml/blob/master/README.md#usage), install the following dependencies:
-
-```
-$ sudo apt-get install uuid-dev uuid-runtime
-```
-
-Download `libsml1_1.1.2_amd64.deb` as well as `libsml-dev_1.1.2_amd64.deb` from [libsml's releases page](https://github.com/volkszaehler/libsml/releases/) and install them using
-
-```
-$ sudo dpkg -i libsml1_1.1.2_amd64.deb
-$ sudo dpkg -i libsml-dev_1.1.2_amd64.deb
-```
-
-## Progress
-
-- [x] `sml_attention_response`
-- [x] `sml_boolean`
-- [x] `sml_close_request`
-- [x] `sml_close_response`
-- [x] `crc16`
+This project is work in progress!

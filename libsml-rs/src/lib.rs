@@ -13,6 +13,7 @@ mod get_list_response;
 mod time;
 mod attention_response;
 mod close_request;
+pub mod crc16;
 
 
 pub use buffer::Buffer;

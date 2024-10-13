@@ -126,7 +126,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "libsml"
+name = "libsml-rs"
 version = "0.1.0"
 dependencies = [
  "libsml-sys",
