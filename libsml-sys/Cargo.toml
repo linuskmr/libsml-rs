@@ -1,6 +1,6 @@
 [package]
 name = "libsml-sys"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["linuskmr <linuskmr.dev@gmail.com>"]
 description = "Low-level bindings to the system libsml library"
@@ -10,4 +10,4 @@ repository = "https://github.com/linuskmr/libsml-rs"
 links = "sml"
 
 [build-dependencies]
-bindgen = "0.69.1"
+bindgen = "0.70.1"
