@@ -1,6 +1,6 @@
 [package]
 name = "libsml-rs"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["linuskmr <linuskmr.dev@gmail.com>"]
 description = "High-level bindings to the libsml library"
@@ -9,4 +9,4 @@ license = "GPL-3.0"
 repository = "https://github.com/linuskmr/libsml-rs"
 
 [dependencies]
-libsml-sys = { path = "../libsml-sys", version = "0.1.0"}
+libsml-sys = { path = "../libsml-sys", version = "0.1.2"}

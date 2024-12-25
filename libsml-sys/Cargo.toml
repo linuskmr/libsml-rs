@@ -1,6 +1,6 @@
 [package]
 name = "libsml-sys"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["linuskmr <linuskmr.dev@gmail.com>"]
 description = "Low-level bindings to the system libsml library"
