@@ -10,4 +10,4 @@ repository = "https://github.com/linuskmr/libsml-rs"
 links = "sml"
 
 [build-dependencies]
-bindgen = "0.70.1"
+bindgen = "0.71.1"
